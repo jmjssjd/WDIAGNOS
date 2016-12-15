@@ -4,7 +4,7 @@
     <property name="connection.provider">NHibernate.Connection.DriverConnectionProvider</property>
     <property name="dialect">NHibernate.Dialect.MsSql2012Dialect</property>
     <property name="connection.driver_class">NHibernate.Driver.Sql2008ClientDriver</property>
-    <property name="connection.connection_string">Data Source=HP840-15\SQLEXPRESS;Initial Catalog=DIAGNOS</property>
+    <property name="connection.connection_string">Data Source=HP840-15\SQLEXPRESS;Initial Catalog=DIAGNOS;User Id=sa;Password=an0nim@</property>
     <property name="show_sql">true</property>
   </session-factory>
 </hibernate-configuration>

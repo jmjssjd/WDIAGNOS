@@ -16,7 +16,8 @@ namespace WDIAGNOS.Tests
             cfg.Configure();
             cfg.AddAssembly(typeof(Paciente).Assembly);
 
-            //new SchemaExport(cfg).Execute( false, true, false, false);
+            //podría llegar a crearse la tabla en la base de datos...
+            //new SchemaExport(cfg).Execute(true, true, false);
         }
     }
 }
