@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WDIAGNOS", "WDIAGNOS\WDIAGNOS.csproj", "{68D76B28-D52A-4147-8BA4-B35FE5127CAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{59C6C144-8209-43DB-AA80-00A83D96C9B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{5A636A3E-DEA6-4058-A315-BC1678D5B047}"
+	ProjectSection(SolutionItems) = preProject
+		00 2016 12 cambios.sql = 00 2016 12 cambios.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WDIAGNOS.Tests", "WDIAGNOS.Tests\WDIAGNOS.Tests.csproj", "{B9A23593-770B-483E-8B93-62893DFB2BC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68D76B28-D52A-4147-8BA4-B35FE5127CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D76B28-D52A-4147-8BA4-B35FE5127CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D76B28-D52A-4147-8BA4-B35FE5127CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D76B28-D52A-4147-8BA4-B35FE5127CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9A23593-770B-483E-8B93-62893DFB2BC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A23593-770B-483E-8B93-62893DFB2BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A23593-770B-483E-8B93-62893DFB2BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A23593-770B-483E-8B93-62893DFB2BC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A636A3E-DEA6-4058-A315-BC1678D5B047} = {59C6C144-8209-43DB-AA80-00A83D96C9B5}
+	EndGlobalSection
+EndGlobal
