@@ -73,8 +73,13 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="domain\Doctor.cs" />
+    <Compile Include="domain\Episodio.cs" />
+    <Compile Include="domain\Exploracion.cs" />
     <Compile Include="domain\IPacienteRepository.cs" />
     <Compile Include="domain\Paciente.cs" />
+    <Compile Include="domain\Quirofano.cs" />
+    <Compile Include="domain\Session.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

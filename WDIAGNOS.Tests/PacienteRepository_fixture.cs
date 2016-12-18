@@ -15,4 +15,4 @@ namespace WDIAGNOS.Tests
         private Configuration _
 
     }
-}ac
+}
