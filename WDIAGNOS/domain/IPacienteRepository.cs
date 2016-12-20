@@ -11,6 +11,6 @@ namespace WDIAGNOS.domain
         void Add(Paciente paciente);
         void Update(Paciente paciente);
         void Remove(Paciente paciente);
-        void GetById(int pacienteId);
+        Paciente GetById(int pacienteId);
     }
 }

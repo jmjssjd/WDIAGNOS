@@ -12,6 +12,9 @@ namespace WDIAGNOS.Tests
         {
             GenerateSchema_Fixture prueba = new GenerateSchema_Fixture();
             prueba.Can_generate_schema();
+
+            PacienteRepository_fixture paciente = new PacienteRepository_fixture();
+            paciente.Can_add_new_Paciente();
         }
     }
 }
