@@ -3,13 +3,13 @@
                    assembly="WDIAGNOS" 
                    namespace="WDIAGNOS.domain">
   <class name="Paciente">
-    <id name="Id">
+    <id name="Id" column="ID_PACIENTE">
       <generator class="identity"/>
     </id>
-    <property name="Apellidos"></property>
-    <property name="Nombre"></property>
-    <property name="Telefono"></property>
-    <property name="FechaNacimiento"></property>
+    <property name="Apellidos" column="APELLIDOS"></property>
+    <property name="Nombre" column="NOMBRE"></property>
+    <property name="Telefono" column="TELEFONO"></property>
+    <property name="FechaNacimiento" column="FECHA_NACIMIENTO"></property>
  </class>
          
 </hibernate-mapping>

@@ -1,4 +1,5 @@
-﻿using WDIAGNOS.domain;
+﻿using NHibernate;
+using WDIAGNOS.domain;
 
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,12 @@ namespace WDIAGNOS.repositories
     {
         public void Add(Paciente paciente)
         {
-            throw new NotImplementedException();
+            using (ISession session = NHibernateHelper.OpenSession())
+            using (ITransaction transaction = session.BeginTransaction())
+            {
+                session.Save(paciente);
+                transaction.Commit();
+            }
         }
         public void Update(Paciente paciente)
         {

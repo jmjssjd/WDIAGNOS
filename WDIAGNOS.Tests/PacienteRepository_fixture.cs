@@ -24,14 +24,15 @@ namespace WDIAGNOS.Tests
         {
             _configuration = new Configuration();
             _configuration.Configure();
-            _configuration.AddAssembly(typeof(Paciente).Assembly);
+            _configuration.AddAssembly("WDIAGNOS"); //typeof(Paciente).Assembly);
             _sessionFactory = _configuration.BuildSessionFactory();
         }
 
         [Test]
         public void Can_add_new_Paciente()
         {
-            var paciente = new Paciente { Nombre = "Juan Miguel", Telefono = "555454545", Apellidos = "Jiménez Salvador" };
+            var paciente = new Paciente { Nombre = "Juan Miguel", Telefono = "555454545", FechaNacimiento = DateTime.Now,
+                Apellidos = "Jiménez Salvador",  };
             IPacienteRepository repository = new PacienteRepository();
             repository.Add(paciente);
         }
